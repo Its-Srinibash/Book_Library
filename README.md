@@ -7,10 +7,7 @@ This is a React application that allows users to search for books using the Open
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Deployment](#deployment)
-- [Additional Information](#additional-information)
+
 
 ## Getting Started
 
@@ -24,16 +21,17 @@ Before you can run this project locally, ensure that you have the following prer
 
 1. Clone the repository to your local machine:
 
-   git clone https://github.com/Its-Srinibash/Book_Library.git
+"git clone https://github.com/Its-Srinibash/Book_Library.git"
+
    Navigate to the project directory:
 
 Install the project dependencies using npm or yarn:
 
-npm install
+"npm install"
 
 To run the application locally, use the following command:
 
-npm start
+"npm start"
 
 This will start the development server, and you can access the app in your web browser at http://localhost:3000.
 
