@@ -1,0 +1,85 @@
+.booklist, .book-details{
+    padding: 3rem 0;
+    background: linear-gradient( rgba(74, 168, 176, 0.885),rgba(106, 166, 209, 0.3));
+}
+.booklist-content{
+    gap: 5rem;
+    
+}
+.save{
+    font-size: 3rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    color: rgb(9, 73, 73);
+
+}
+.save:hover{
+    color: red;
+    font-size: 3.5rem;
+}
+.book-item{
+    padding: 3rem 2rem;
+    border-radius: 4px;
+    /* background-color: var(--white-color); */
+    background: linear-gradient( rgba(172, 229, 234, 0.885),rgba(216, 224, 229, 0.752));
+    box-shadow: rgba(30, 30, 30, 0.851) 0px 5px 15px 0px;
+    transition: var(--transition);
+}
+.book-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.book-item-img img{
+    max-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.book-item-info{
+    margin-top: 2rem;
+}
+.book-item-info-item.title{
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+}
+.book-item-info-item.author{
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+.book-item-info-item:not(.book-item-info-item.title) span:last-child{
+    opacity: 0.8;
+}
+.book-item-info-item.publish-year{
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 14px;
+}
+.delete{
+    font-size: 2.5rem;
+    color: rgb(15, 112, 112);
+}
+.delete:hover{
+    font-size: 3rem;
+    color: brown;
+}
+@media screen and (min-width: 600px){
+    .booklist-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .booklist-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .book-item-img img{
+        max-width: 150px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .booklist-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .book-item-img img{
+        max-width: 120px;
+    }
+}
