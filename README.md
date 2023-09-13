@@ -1,5 +1,5 @@
 
-![Desktop](/src/images/page1.png)
+![Desktop](../src/images/page1.png)
 
 # Personal Bookshelf React App
 
