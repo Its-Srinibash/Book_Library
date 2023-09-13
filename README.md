@@ -1,5 +1,14 @@
+## Desktop
 
 ![Desktop](/src/images/page1.png)
+![Desktop](/src/images/page2.png)
+![Desktop](/src/images/page3.png)
+
+## Phone
+
+![Desktop](/src/images/page4.png)
+![Desktop](/src/images/page5.png)
+![Desktop](/src/images/page6.png)
 
 # Personal Bookshelf React App
 
