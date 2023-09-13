@@ -39,7 +39,11 @@ Project Structure
 The project structure is organized as follows:
 
 src/: Contains the source code for the React application.
+
 components/: Contains React components for the Book Search Page, Personal Bookshelf Page, and other components.
+
 App.js: The main entry point for the application.
+
 index.js: The entry point for rendering the app.
+
 public/: Contains public assets and the HTML template.
